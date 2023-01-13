@@ -1,0 +1,138 @@
+/* About Me Page Main Design */
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+html { 
+    background: url(images/pexels-tranmautritam-69432.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav ul li {
+    display: inline;
+    padding: 3rem;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+nav {
+    background:linear-gradient(101.61deg, #044587 -14.72%, #861dd0 66.97%); 
+    display: flex;
+    width: 1900px;
+    height: auto;
+    position: fixed;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 100;
+}
+
+.text_gradient {
+    /* Set the background color */
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: #b6b4b4;
+    transition: 0.4s;
+}
+/*
+.gobutton {
+    margin-left: 300px;
+    border-radius: 6px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+*/
+.gradient {
+    width: 100%;
+    height: 745.95px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.header {
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    border-bottom: 5px #370eec solid;
+}
+
+.text {
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    width: 700px;
+    
+}
+
+.text2 {
+    position: absolute;
+    left: 800px;
+    top: 450px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45.0633px;
+    line-height: 53px;
+    color: #FFFFFF;
+    
+}
+
+h3 {
+   font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+    color: #F2F2F2; 
+
+}
+
+li {
+    list-style-type:none
+}
+
+.align {
+    text-align: center;
+}
+
+.space {
+    position: absolute;
+    left: 400px;
+    top: 710px;   
+    text-align: center;
+    width: 800px;
+    color: white; 
+}

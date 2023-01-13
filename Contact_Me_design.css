@@ -1,0 +1,198 @@
+/*Contact Page Design*/
+
+body{
+    margin: 0px;
+}
+
+html { 
+    background: linear-gradient(180deg, #ffffff 20%, #001252 100%) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav ul li {
+    display: inline;
+    padding: 3rem;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    background:linear-gradient(101.61deg, #044587 -14.72%, #861dd0 66.97%); 
+    display: flex;
+    width: 1900px;
+    height: auto;
+    position: fixed;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 100;
+}
+
+.text_gradient {
+    /* Set the background color */
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: #b6b4b4;
+}
+
+iframe {
+    position: absolute;
+    left: 45%;
+    top: 195px;
+}
+
+h1 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 150px;
+    top: 84px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 50px;
+    /* or 208% */
+
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    background: linear-gradient(101.61deg, #044587 0%, #861dd0 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 57px;
+    top: 185px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+    border: 3px rgb(255, 255, 255);
+    border-radius: 100px;
+    }
+
+.txt1 {
+    position: absolute;
+    width: 362px;
+    height: 42px;
+    left: 164px;
+    top: 190px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    letter-spacing: 0.03em;
+    background: linear-gradient(101.61deg, #044587 0%, #861dd0 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+    border: 3px dotted rgb(91, 3, 233);
+    padding-left: 7px;
+}
+
+form {
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    width: 450px;
+    height: 500px;
+
+}
+
+fieldset {
+    border-radius: 5px;
+    background: linear-gradient(191.32deg, #7B2EB0 -118.59%, #C584F5 15.64%, #DACEE1 56.18%, #5D6AAA 81.36%, #0D2986 109.76%, #481CBB 131.68%, #142D8E 131.68%);
+    border-radius: 30.5692px;
+    
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    /* or 208% */
+
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+}
+
+input{
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 20rem;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 2rem;
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem;
+
+}
+
+.space {
+    position: absolute;
+    left: 400px;
+    top: 1000px;   
+    text-align: center;
+    width: 800px;
+    color: white;   
+}
+
+button {
+    background: #0047FF;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    border: 3px #0047FF solid ;
+    cursor: pointer;
+    width: 125px;
+    margin-top: 1.7rem;
+}
+
+.button:hover {
+    background: white;
+    color: blue;
+}

@@ -1,0 +1,19 @@
+.button3 {
+    position: absolute;
+    left: 495px;
+    top: 1964.6px;
+    width: 208px;
+    height: 79px;
+    background: #0047FF;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 46px;
+    border: 0px;
+    cursor: pointer;
+    /* identical to box height, or 192% */
+}
+
